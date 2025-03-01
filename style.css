@@ -97,20 +97,32 @@ section {
 
 #home {
     display: flex;
-    justify-content: center;
     align-items: top;
-    max-height: 100vh;
-    padding: 0;
+    justify-content: center;
+    padding: 0 0%;
+    height: 100vh;
+    margin-top: 68px;
 }
 
-#home-content {
-    top: -10rem;
-    background: transparent;
-    width: 80rem;
-    height: 60rem;
+.home-content {
+    width: 95%;
+    height: 90%;
+    background: red;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
+}
+
+.ttin {
+    background: blue;
+    height: 100%;
+    width: 30%;
+}
+
+.anhlop {
+    background: green;
+    height: 100%;
+    width: 70%;
 }
 
 .gvcn {
@@ -149,16 +161,9 @@ section {
     left: 5rem;
 }
 
-#home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .slider {
     width: 100%;
     height: 100vh;
-    border-radius: 10px;
     overflow: hidden;
 }
 
