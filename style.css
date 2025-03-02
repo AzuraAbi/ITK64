@@ -136,7 +136,7 @@ section {
     justify-content: center;
     padding: 0 0%;
     height: 100vh;
-    margin-top: 68px;
+    margin-top: 73px;
 }
 
 .home-content {
@@ -152,6 +152,7 @@ section {
     background: rgba(0, 0, 0, 0.408);
     height: 100%;
     width: 30%;
+    display: flexbox;
     justify-content: center;
     border-radius: 10px;
 }
@@ -160,19 +161,19 @@ section {
     text-align: center;
     color: white;
     font-size: 1.5vw;
-    position: absolute;
+    position: relative;
     top: 1rem;
 }
 
 .itk64 {
     font-size: 8vw;
-    position: absolute;
-    top: 4rem;
+    position: relative;
+    top: 2rem;
+    text-align: center;
     color: white;
     font-weight: 700;
     font-family: 'Lilita One', sans-serif;
     -webkit-text-stroke: .05rem black;
-    transform: translateX(15%);
 }
 
 .bar {
@@ -180,41 +181,35 @@ section {
     width: 90%;
     height: 2px;
     position: relative;
-    top: 3.5rem;
-    transform: translateX(5%);
+    top: 1.7rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.bar2 {
-    top: 13rem;
-}
 
 .ttin .gvcn {
     position: relative;
-    background-color: transparent;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    width: 95%;
+    height: 35%;
     display: flex;
     justify-content: space-between;
-    top: 12rem;
-    width: 98%;
-    translate: 1%;
-}
-
-.gvcn div {
-    width: 11rem;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .gvcn div img {
     position: relative;
-    width: 100%;
-    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
+    border-radius: 50%;
     background-position: center;
+    border: 2px solid white;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .social {
@@ -222,7 +217,7 @@ section {
     width:  100%;
     height: 40%;
     position: relative;
-    bottom: -13rem;
+    top: 3rem;
 }
 
 .social ul {
@@ -251,7 +246,7 @@ section {
     height: 100%;
     width: 69%;
     border-radius: 10px;
-    display: flex;
+    display: flexbox;
     justify-content: center;
 }
 
@@ -259,11 +254,13 @@ section {
     background-color: red;
     position: relative;
     width: 90%;
-    height: 70%;
+    height: 64%;
     top: 3rem;
     border-radius: 10px;
     overflow: hidden;
-    max-height: 458px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid white;
 }
 
 
@@ -285,6 +282,7 @@ section {
 }
 
 .slides {
+    position: relative;
     width: 300%;
     height: 100%;
     display: flex;
