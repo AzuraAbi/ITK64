@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <title>ITK64</title>
 </head>
+
 <body>
     <header class="header">
-        <a href="#home" class="logo">
+        <a href="#" class="logo">
             <div>
                 <img src="assets/logo.png" alt="" id="logo">
                 ITK64
@@ -24,23 +26,76 @@
         </label>
 
         <nav class="navbar">
-            <a href="#home" style="--i:1">Trang chủ</a>
+            <a href="#" style="--i:1">Trang chủ</a>
             <a href="#gioithieu" style="--i:2">Giới thiệu</a>
             <a href="#thanhvien" style="--i:3">Thành viên</a>
             <a href="#album" style="--i:4">Album</a>
             <a href="#thanhtich" style="--i:5">Thành tích</a>
-            <a href="#thanhtich" style="--i:6">Liên hệ</a>
+            <a href="#lienhe" style="--i:6">Liên hệ</a>
         </nav>
     </header>
+
 
     <section id="home">
         <div class="home-content">
             <div class="ttin">
+                <span class="truong">Trường THPT Chuyên Lương Văn Tụy</span>
+                <h1 class="itk64">ITK64</h1>
+                <div class="bar"></div>
+                <div class="gvcn">
+                    <div class="cohang">
+                        <img src="assets/cohang.png">
+                    </div>
+                    <div class="cohuyen">
+                        <img src="assets/cohuyen.png">
+                    </div>
+                </div>
 
+                <div class="bar bar2"></div>
+
+                <div class="social">
+                    <ul>
+                        <li class="fb">
+                            <a href="https://www.facebook.com/share/12GtZVwAzkJ/?mibextid=wwXIfr" target="_blank">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                                Anti ITK64
+                            </a>
+                        </li>
+                        <li class="tiktok">
+                            <a href="https://www.tiktok.com/@itk64.lvt?_t=ZS-8uL1MDNf8YZ&_r=1" target="_blank">
+                                <ion-icon name="logo-tiktok"></ion-icon>
+                                ITk64-LVT
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="anhlop">
-                
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        
+                        <div class="slide first">
+                            <img src="assets/anh1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/anh2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/anh3.png">
+                        </div>
+
+                    </div>
+
+                    <div class="btns">
+                        <label for="radio1" id="auto-btn1" class="manual-btn slide-active"></label>
+                        <label for="radio2" id="auto-btn2" class="manual-btn"></label>
+                        <label for="radio3" id="auto-btn3" class="manual-btn"></label>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -49,6 +104,11 @@
 
     </section>
 
+    
+    <div class="bg"></div>
+    <div class="mo"></div>
+
     <script src="slide.js"></script>
 </body>
+
 </html>
